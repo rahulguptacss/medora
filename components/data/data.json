@@ -1,0 +1,611 @@
+{
+  "common": {
+    "Topbar": {
+      "tagline": "Medora Healthcare – WHO-GMP & ISO Certified Pharmaceutical & Botanical Formulation Facility",
+      "mobile_call_text": "Call",
+      "contact_info": [
+        {
+          "icon": "Phone",
+          "label": "Call Us",
+          "value": "+100000000000",
+          "href": "tel:+100000000000"
+        },
+        {
+          "icon": "Mail",
+          "label": "Email",
+          "value": "info@xyz.com",
+          "href": "mailto:info@xyz.com"
+        },
+        {
+          "icon": "Clock",
+          "label": "Working Hours",
+          "value": "Mon - Sat: 9:00 AM - 6:00 PM EST"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "https://www.facebook.com/"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "https://www.linkedin.com/"
+        },
+        {
+          "icon": "Twitter",
+          "href": "https://x.com/"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://www.instagram.com/"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://www.youtube.com/"
+        }
+      ]
+    },
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "Medora Healthcare",
+      "button_text": "Enquire Now",
+      "button_text_mobile": "Enquire",
+      "button_link": "#contact",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Our Products",
+          "href": "#products"
+        },
+        {
+          "name": "Manufacturing",
+          "href": "#manufacturing"
+        },
+        {
+          "name": "Certifications",
+          "href": "#certifications"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Contact Us",
+          "href": "#contact"
+        }
+      ]
+    },
+    "Footer": {
+      "logo": "/logo/white-logo.webp",
+      "logo_text": "Medora Healthcare",
+      "description": "Medora Healthcare is an internationally recognized pharmaceutical and botanical formulation company committed to advancing global wellness through clinical quality, rigorous WHO-GMP compliance, and patient-first science.",
+      "quick_links_title": "Quick Links",
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Therapeutic Products",
+          "href": "#products"
+        },
+        {
+          "name": "Manufacturing Facilities",
+          "href": "#manufacturing"
+        },
+        {
+          "name": "Global Certifications",
+          "href": "#certifications"
+        },
+        {
+          "name": "Client Reviews",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Contact & Enquiry",
+          "href": "#contact"
+        }
+      ],
+      "product_range_title": "Therapeutic Divisions",
+      "product_range": [
+        {
+          "name": "Solid Orals (Tablets & Capsules)",
+          "href": "#products"
+        },
+        {
+          "name": "Liquid Orals & Suspensions",
+          "href": "#products"
+        },
+        {
+          "name": "Herbal & Botanical Formulations",
+          "href": "#products"
+        },
+        {
+          "name": "Sterile Injectables & Ampoules",
+          "href": "#products"
+        },
+        {
+          "name": "Dermatological Ointments & Gels",
+          "href": "#products"
+        },
+        {
+          "name": "Nutraceutical Supplements",
+          "href": "#products"
+        },
+        {
+          "name": "Ophthalmic Eye Solutions",
+          "href": "#products"
+        },
+        {
+          "name": "Respiratory Inhalation Care",
+          "href": "#products"
+        }
+      ],
+      "contact_title": "Contact Information",
+      "contact_info": [
+        {
+          "icon": "MapPin",
+          "text": "123 Healthcare Park, BioTech Valley, New York, NY 10001"
+        },
+        {
+          "icon": "Phone",
+          "text": "+100000000000",
+          "href": "tel:+100000000000"
+        },
+        {
+          "icon": "Mail",
+          "text": "info@xyz.com",
+          "href": "mailto:info@xyz.com"
+        },
+        {
+          "icon": "Clock",
+          "text": "Mon - Sat: 9:00 AM - 6:00 PM EST"
+        }
+      ],
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "https://www.facebook.com/"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "https://www.linkedin.com/"
+        },
+        {
+          "icon": "Twitter",
+          "href": "https://x.com/"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://www.instagram.com/"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://www.youtube.com/"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Medora Healthcare",
+      "pageName": "home",
+      "metadata": {
+        "title": "Medora Healthcare – Pharmaceutical & Botanical Wellness Manufacturing",
+        "description": "Medora Healthcare is a certified pharmaceutical manufacturer delivering WHO-GMP compliant prescription medicines, sterile injectables, and botanical healthcare solutions."
+      },
+      "components": [
+        {
+          "key": "HeroSection",
+          "component": "Hero",
+          "sectionKey": "hero"
+        },
+        {
+          "key": "AboutSection",
+          "component": "About",
+          "sectionKey": "about"
+        },
+        {
+          "key": "StatsSection",
+          "component": "Stats",
+          "sectionKey": "stats"
+        },
+        {
+          "key": "ProductsSection",
+          "component": "Products",
+          "sectionKey": "products"
+        },
+        {
+          "key": "ManufacturingSection",
+          "component": "Manufacturing",
+          "sectionKey": "manufacturing"
+        },
+        {
+          "key": "CertificationsSection",
+          "component": "Certifications",
+          "sectionKey": "certifications"
+        },
+        {
+          "key": "TestimonialsSection",
+          "component": "Testimonials",
+          "sectionKey": "testimonials"
+        },
+        {
+          "key": "CtaBannerSection",
+          "component": "CtaBanner",
+          "sectionKey": "cta_banner"
+        },
+        {
+          "key": "ContactSection",
+          "component": "Contact",
+          "sectionKey": "contact"
+        }
+      ]
+    }
+  },
+  "sections": {
+    "hero": {
+      "slides": [
+        {
+          "badge_text": "PIONEERING HEALTH & BOTANICAL SCIENCE",
+          "title_line1": "Quality Medicines",
+          "title_line2": "for a ",
+          "title_highlight": "Healthier",
+          "title_line3": "Tomorrow",
+          "description": "Medora Healthcare manufactures certified pharmaceuticals, sterile formulations, and botanical wellness solutions formulated for clinical efficacy, patient safety, and global healthcare excellence.",
+          "image": "/images/hero.webp",
+          "primary_button": {
+            "text": "Explore Our Products",
+            "href": "#products"
+          },
+          "floating_badge": {
+            "value": "700+",
+            "label": "Laboratory Experts"
+          }
+        },
+        {
+          "badge_text": "AUTOMATED PHARMACEUTICAL PRODUCTION",
+          "title_line1": "Advanced Robotic",
+          "title_line2": "Cleanroom ",
+          "title_highlight": "Formulation",
+          "title_line3": "Lines",
+          "description": "Equipped with state-of-the-art robotic vial sealing, high-speed blister packaging, and computerized HEPA-filtered cleanrooms exceeding international WHO-GMP quality benchmarks.",
+          "image": "/images/hero-slide-2.webp",
+          "primary_button": {
+            "text": "Explore Facilities",
+            "href": "#manufacturing"
+          },
+          "floating_badge": {
+            "value": "100%",
+            "label": "WHO-GMP Compliant"
+          }
+        },
+        {
+          "badge_text": "BOTANICAL BIOTECHNOLOGY & WELLNESS",
+          "title_line1": "Pure Herbal Extracts",
+          "title_line2": "backed by ",
+          "title_highlight": "Scientific",
+          "title_line3": "Research",
+          "description": "Harmonizing pure botanical actives with modern pharmacological precision. Every batch undergoes rigorous HPLC chromatography to guarantee clinical potency and bioactive efficacy.",
+          "image": "/images/hero-slide-3.webp",
+          "primary_button": {
+            "text": "View Botanical Range",
+            "href": "#products"
+          },
+          "floating_badge": {
+            "value": "650+",
+            "label": "Formulated Products"
+          }
+        }
+      ]
+    },
+    "about": {
+      "subtitle": "ABOUT MEDORA HEALTHCARE",
+      "title_line1": "Medora",
+      "title_highlight": "Healthcare",
+      "title_line2": "Committed to Global Wellness & Clinical Precision",
+      "description": "Medora Healthcare is a premier pharmaceutical and botanical formulation company. We integrate cutting-edge pharmacological biotechnology with rigorous WHO-GMP standards to produce high-efficacy, affordable prescription medicines, nutraceuticals, and wellness therapies.",
+      "image": "/images/about.webp",
+      "features": [
+        {
+          "title": "WHO-GMP Certified"
+        },
+        {
+          "title": "Patient-Centric Efficacy"
+        },
+        {
+          "title": "Biotech Formulation"
+        },
+        {
+          "title": "Global Supply Reach"
+        }
+      ],
+      "cards": [
+        {
+          "title": "Our Mission",
+          "description": "Accessible & Life-Enhancing Healthcare for All"
+        },
+        {
+          "title": "Our Vision",
+          "description": "Global Benchmark in Pure & Trusted Formulations"
+        },
+        {
+          "title": "Our Values",
+          "description": "Integrity, Quality & Compassionate Science"
+        }
+      ],
+      "button": {
+        "text": "Discover Medora",
+        "href": "#manufacturing"
+      }
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "20+",
+          "label": "Years of Excellence",
+          "icon": "FlaskConical"
+        },
+        {
+          "value": "650+",
+          "label": "Formulated Products",
+          "icon": "Pill"
+        },
+        {
+          "value": "35+",
+          "label": "Countries Exported",
+          "icon": "Globe"
+        },
+        {
+          "value": "10,000+",
+          "label": "Healthcare Partners",
+          "icon": "Users"
+        }
+      ]
+    },
+    "products": {
+      "subtitle": "OUR THERAPEUTIC DIVISIONS",
+      "title_line1": "Comprehensive Range of",
+      "title_highlight": "Healthcare Formulations",
+      "description": "Our diverse product portfolio spans essential solid orals, sterile formulations, botanical remedies, and specialized wellness solutions crafted under strict international pharmacopeia standards.",
+      "button": {
+        "text": "Request Full Catalogue",
+        "href": "#contact"
+      },
+      "items": [
+        {
+          "title": "Solid Orals (Tablets & Capsules)",
+          "image": "/images/product-1.webp",
+          "link": "#contact",
+          "icon": "Pill"
+        },
+        {
+          "title": "Liquid Orals & Suspensions",
+          "image": "/images/product-2.webp",
+          "link": "#contact",
+          "icon": "Droplet"
+        },
+        {
+          "title": "Herbal & Botanical Formulations",
+          "image": "/images/product-3.webp",
+          "link": "#contact",
+          "icon": "Heart"
+        },
+        {
+          "title": "Sterile Injectables & Ampoules",
+          "image": "/images/product-4.webp",
+          "link": "#contact",
+          "icon": "Syringe"
+        },
+        {
+          "title": "Dermatological Ointments & Gels",
+          "image": "/images/product-5.webp",
+          "link": "#contact",
+          "icon": "Activity"
+        },
+        {
+          "title": "Nutraceutical Supplements",
+          "image": "/images/product-6.webp",
+          "link": "#contact",
+          "icon": "Heart"
+        },
+        {
+          "title": "Ophthalmic Eye Solutions",
+          "image": "/images/product-7.webp",
+          "link": "#contact",
+          "icon": "Eye"
+        },
+        {
+          "title": "Respiratory Inhalation Care",
+          "image": "/images/product-8.webp",
+          "link": "#contact",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "manufacturing": {
+      "subtitle": "MANUFACTURING EXCELLENCE",
+      "title_line1": "Advanced Manufacturing",
+      "title_line2": "Facilities for",
+      "title_highlight": "Better Healthcare",
+      "description": "Our modern manufacturing infrastructure features high-speed automated blister packaging lines, Class 10,000 cleanrooms, and computerized analytical testing facilities adhering strictly to WHO-GMP and ISO guidelines.",
+      "features": [
+        {
+          "title": "Automated Blister Packaging",
+          "description": "High-precision automated sealing lines with vision inspection",
+          "icon": "Settings"
+        },
+        {
+          "title": "Sterile Cleanroom Suites",
+          "description": "HEPA-filtered Class 100/10,000 environments with positive pressure",
+          "icon": "ShieldCheck"
+        },
+        {
+          "title": "Advanced Analytical R&D Lab",
+          "description": "HPLC and spectrophotometric quality verification protocols",
+          "icon": "FlaskConical"
+        },
+        {
+          "title": "Skilled Bio-Engineering Team",
+          "description": "Over 700 certified chemists and pharmaceutical scientists",
+          "icon": "Users"
+        }
+      ],
+      "button": {
+        "text": "Explore Facilities",
+        "href": "#contact"
+      },
+      "images": [
+        "/images/mfg1.webp",
+        "/images/mfg2.webp"
+      ]
+    },
+    "certifications": {
+      "subtitle": "TRUSTED QUALITY STANDARDS",
+      "title_line1": "OUR",
+      "title_highlight": "CERTIFICATIONS",
+      "description": "Medora Healthcare operates under stringent international quality accreditations ensuring that every batch meets global pharmacological safety and purity standards.",
+      "bg_image": "/images/certificationsbg.webp",
+      "items": [
+        {
+          "image": "/og/1.webp",
+          "alt": "WHO-GMP Certified"
+        },
+        {
+          "image": "/og/2.webp",
+          "alt": "ISO 9001 Quality Management"
+        },
+        {
+          "image": "/og/3.webp",
+          "alt": "GLP Good Laboratory Practice"
+        },
+        {
+          "image": "/og/4.webp",
+          "alt": "HACCP Food Safety Certified"
+        },
+        {
+          "image": "/og/5.webp",
+          "alt": "EU Regulatory Compliance"
+        }
+      ]
+    },
+    "testimonials": {
+      "subtitle": "TESTIMONIALS",
+      "title_line1": "What Healthcare",
+      "title_highlight": "Leaders Say",
+      "description": "Trusted by hospital directors, clinical research organizations, and pharmaceutical distributors worldwide.",
+      "reviews": [
+        {
+          "text": "Medora Healthcare's unwavering commitment to WHO-GMP standards and rapid batch delivery has made them our most dependable institutional pharmaceutical partner.",
+          "author": "Dr. Rajesh Sharma",
+          "role": "Chief Medical Director, Apex Care Hospitals",
+          "image": "/images/avatar-1.webp",
+          "rating": 5
+        },
+        {
+          "text": "Their botanical wellness formulations and sterile solid orals exhibit consistent clinical bioequivalence and supreme purity. A truly world-class manufacturing operation.",
+          "author": "Dr. Sarah Jenkins",
+          "role": "Head of Clinical Pharmacology, BioHealth International",
+          "image": "/images/avatar-2.webp",
+          "rating": 5
+        },
+        {
+          "text": "Working with Medora for third-party contract manufacturing has streamlined our global distribution. Their automated facilities and quality testing are second to none.",
+          "author": "Marcus Vance",
+          "role": "Global Supply Chain VP, PharmaLogix Corp",
+          "image": "/images/avatar-3.webp",
+          "rating": 5
+        }
+      ]
+    },
+    "cta_banner": {
+      "subtitle": "LET'S CONNECT",
+      "title_line1": "Looking for a Trusted",
+      "title_line2": "Pharmaceutical Partner?",
+      "description": "Partner with Medora Healthcare for contract manufacturing, specialized botanical formulations, institutional supply, and global distribution. Let's build a healthier future together.",
+      "image": "/images/cta.webp",
+      "button": {
+        "text": "Enquiry Now",
+        "href": "#contact"
+      }
+    },
+    "contact": {
+      "subtitle": "CONTACT US",
+      "title": "Get In Touch",
+      "titleHighlight": "With Medora",
+      "description": "We are here to assist you with contract manufacturing requirements, product catalog inquiries, and institutional collaborations. Reach out to our scientific team.",
+      "info_card": {
+        "title": "Our Contact",
+        "titleHighlight": "Information",
+        "description": "Have questions regarding pharmaceutical contract manufacturing or product supply? Reach out to our specialized medical liaison team.",
+        "image": "/images/about.webp",
+        "items": [
+          {
+            "icon": "MapPin",
+            "title": "Facility Location",
+            "details": "123 Healthcare Park, BioTech Valley, New York, NY 10001",
+            "subtext": "Global Formulation Center"
+          },
+          {
+            "icon": "Phone",
+            "title": "Phone Inquiry",
+            "details": "+100000000000",
+            "subtext": "Mon - Sat: 9:00 AM - 6:00 PM EST"
+          },
+          {
+            "icon": "Mail",
+            "title": "Email Support",
+            "details": "info@xyz.com",
+            "subtext": "Quick technical & commercial response"
+          },
+          {
+            "icon": "Clock",
+            "title": "Working Hours",
+            "details": "Mon - Sat: 9:00 AM - 6:00 PM EST",
+            "subtext": "Sunday Closed"
+          }
+        ]
+      },
+      "form_card": {
+        "title": "Send Us a",
+        "titleHighlight": "Message",
+        "description": "Fill out the form below and our medical formulation team will respond within 24 hours.",
+        "fields": {
+          "name_label": "Full Name",
+          "name_placeholder": "Enter your full name",
+          "email_label": "Email Address",
+          "email_placeholder": "Enter your email address",
+          "phone_label": "Phone Number",
+          "phone_placeholder": "Enter your phone number",
+          "subject_label": "Inquiry Subject",
+          "subject_placeholder": "Select a subject",
+          "subject_options": [
+            "Contract Manufacturing & PCD",
+            "Product Inquiry & Bulk Order",
+            "Third-Party Botanical Formulations",
+            "Institutional Hospital Supply",
+            "Export & Global Distribution",
+            "General Business Collaboration"
+          ],
+          "message_label": "Message",
+          "message_placeholder": "Detail your requirements or message..."
+        },
+        "button": {
+          "text": "Submit Inquiry"
+        }
+      }
+    }
+  }
+}

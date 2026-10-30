@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0A231E;
+  --primary: #004D40;
+  --primary-dark: #00332B;
+  --primary-light: #00695C;
+  --gold: #E6A117;
+  --gold-dark: #C68507;
+  --gold-light: #F5B83D;
+  --leaf: #4CAF50;
+  --leaf-dark: #2E7D32;
+  --leaf-light: #81C784;
+  --teal-soft: #E8F5F2;
+  --gold-soft: #FDF7EB;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --breakpoint-xs: 480px;
+}
+
+html,
+body {
+  background: #ffffff;
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: clip;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar matching Medora Healthcare branding */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #00332B;
+}
+::-webkit-scrollbar-thumb {
+  background: #E6A117;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F5B83D;
+}
+
+a,
+button,
+[type="button"],
+[type="submit"],
+[role="button"] {
+  cursor: pointer;
+}
