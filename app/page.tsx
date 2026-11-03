@@ -1,17 +1,20 @@
 import React from 'react';
-import Topbar from '../components/sections/Topbar';
-import Header from '../components/sections/Header';
-import Hero from '../components/sections/Hero';
-import About from '../components/sections/About';
-import Stats from '../components/sections/Stats';
-import Products from '../components/sections/Products';
-import Manufacturing from '../components/sections/Manufacturing';
-import Certifications from '../components/sections/Certifications';
-import Testimonials from '../components/sections/Testimonials';
-import CtaBanner from '../components/sections/CtaBanner';
-import Contact from '../components/sections/Contact';
-import Footer from '../components/sections/Footer';
+import Topbar from '../components/sections/Topbar/page';
+import Header from '../components/sections/Header/page';
+import Hero from '../components/sections/Hero/page';
+import About from '../components/sections/About/page';
+import Stats from '../components/sections/Stats/page';
+import Products from '../components/sections/Products/page';
+import Manufacturing from '../components/sections/Manufacturing/page';
+import Certifications from '../components/sections/Certifications/page';
+import Testimonials from '../components/sections/Testimonials/page';
+import CtaBanner from '../components/sections/CtaBanner/page';
+import Contact from '../components/sections/Contact/page';
+import Footer from '../components/sections/Footer/page';
 import dataJson from '../components/data/data.json';
+
+// Always render dynamically in development to prevent stale caching
+export const dynamic = 'force-dynamic';
 
 const componentMap: Record<string, React.ComponentType<{ data: any }>> = {
   Hero,

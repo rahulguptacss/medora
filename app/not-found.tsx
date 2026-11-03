@@ -1,8 +1,8 @@
 import React from 'react';
-import Topbar from '@/components/sections/Topbar';
-import Header from '@/components/sections/Header';
-import NotFoundSection from '@/components/sections/NotFound';
-import Footer from '@/components/sections/Footer';
+import Topbar from '@/components/sections/Topbar/page';
+import Header from '@/components/sections/Header/page';
+import NotFoundSection from '@/components/sections/NotFound/page';
+import Footer from '@/components/sections/Footer/page';
 import dataJson from '@/components/data/data.json';
 
 export const metadata = {
